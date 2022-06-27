@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  runner:
+    build: .
+    environment:
+      - GITHUB_USERNAME=rakib4kbd
+      - GITHUB_REPO=docker-gh-runner
+      - ACCESS_TOKEN=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
