@@ -3,7 +3,5 @@ version: '3'
 services:
   runner:
     build: .
-    environment:
-      - GITHUB_USERNAME=rickdonato
-      - GITHUB_REPO=docker-gh-runner
-      - ACCESS_TOKEN=actual-access-token
+    env_file:
+       - .env
