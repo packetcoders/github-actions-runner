@@ -2,7 +2,7 @@
 FROM ubuntu:jammy
 
 # set the github runner version
-ARG RUNNER_VERSION="2.293.0"
+ARG RUNNER_VERSION="2.294.0"
 
 # update the base packages and add a non-sudo user
 RUN apt-get update -y && apt-get upgrade -y && useradd -m docker
