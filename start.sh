@@ -45,7 +45,7 @@ personal_profile_registration () {
     ./run.sh & wait $!
 }
 
-
+export PATH=$PATH:/home/docker/.local/
 if [[ -z "$GITHUB_ORGNAME" ]]
 then
     personal_profile_registration
